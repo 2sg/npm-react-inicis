@@ -201,6 +201,11 @@ var ReactInicis = function ReactInicis(_ref) {
     readOnly: true,
     name: "closeUrl",
     value: payData.closeUrl
+  }),/*#__PURE__*/_react.default.createElement("input", {
+    type: "hidden",
+    readOnly: true,
+    name: "merchantData",
+    value: payData.merchantData
   })), /*#__PURE__*/_react.default.createElement("form", {
     name: "mobileweb",
     method: "post",
